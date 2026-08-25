@@ -1,0 +1,37 @@
+name: Spin Coating Log
+description: Log a spin coating procedure (resist, polymer, etc.)
+title: "[Spin] <Sample ID>"
+labels: ["experiment", "fabrication", "spin-coating"]
+body:
+  - type: input
+    id: sample_id
+    attributes:
+      label: Sample ID
+      description: Target substrate being coated.
+    validations:
+      required: true
+  - type: input
+    id: solution
+    attributes:
+      label: Solution / Photoresist
+      description: e.g., PMMA A4, SU-8, etc.
+    validations:
+      required: true
+  - type: input
+    id: parameters
+    attributes:
+      label: Spin Parameters
+      description: Speed (RPM), Acceleration, Time (seconds)
+      placeholder: e.g., 3000 RPM, 1000 RPM/s, 60s
+    validations:
+      required: true
+  - type: input
+    id: baking
+    attributes:
+      label: Baking Conditions
+      description: Pre-bake or post-bake temperatures and times.
+  - type: textarea
+    id: observations
+    attributes:
+      label: Observations & Results
+      description: Did the film coat evenly? Any comets or striations? Attach images here.

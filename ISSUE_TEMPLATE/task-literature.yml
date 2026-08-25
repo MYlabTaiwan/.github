@@ -1,0 +1,27 @@
+name: Literature Review
+description: Log notes on a relevant research paper.
+title: "[Paper] <Title>"
+labels: ["literature", "planning"]
+body:
+  - type: input
+    id: paper_details
+    attributes:
+      label: Title & Authors
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: DOI / Link
+  - type: textarea
+    id: key_findings
+    attributes:
+      label: Key Findings
+      description: What did they achieve that is relevant to our work?
+    validations:
+      required: true
+  - type: textarea
+    id: action_items
+    attributes:
+      label: Action Items / Ideas
+      description: How does this change our experimental plan?

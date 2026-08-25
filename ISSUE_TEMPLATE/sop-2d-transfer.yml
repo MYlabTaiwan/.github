@@ -1,0 +1,39 @@
+name: 2D Materials Transfer
+description: Log a wet or dry transfer of 2D materials.
+title: "[Transfer] <Material> to <Substrate>"
+labels: ["experiment", "fabrication", "transfer"]
+body:
+  - type: input
+    id: material
+    attributes:
+      label: Source Material
+      description: e.g., CVD Graphene on Cu, Exfoliated hBN
+    validations:
+      required: true
+  - type: input
+    id: target
+    attributes:
+      label: Target Substrate
+      description: e.g., SiO2/Si, Flexible PET
+    validations:
+      required: true
+  - type: dropdown
+    id: method
+    attributes:
+      label: Transfer Method
+      options:
+        - Wet Transfer (PMMA)
+        - Dry Transfer (PDMS Stamp)
+        - Pick-and-Place (PC)
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Etching & Cleaning Details
+      description: Note etchant used, rinsing times, and annealing conditions.
+  - type: textarea
+    id: results
+    attributes:
+      label: Optical / Yield Results
+      description: Paste microscope images and estimate transfer yield/quality.

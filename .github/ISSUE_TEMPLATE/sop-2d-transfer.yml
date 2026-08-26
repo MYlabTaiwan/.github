@@ -1,4 +1,4 @@
-name: 2D Materials Transfer
+name: "2. 🔬 2D Materials Transfer"
 description: Log a wet or dry transfer of 2D materials.
 title: "[Transfer] <Material> to <Substrate>"
 labels: ["experiment", "fabrication", "transfer"]

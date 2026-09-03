@@ -4,9 +4,13 @@
 
 ### Basic projects
 [Electrochemistry](https://github.com/MYlabTaiwan/Basics_Electrochemistry): Learn about CV, EIS, LSV and study the effect of sample resistance.
+
 [Patterning](https://github.com/MYlabTaiwan/Basics_Patterning): Produce and improve lithographical features.
+
 [Spectroscopy](https://github.com/MYlabTaiwan/Basic_Spectroscopy): Apply Raman spectroscopy, PL, and TRPL at different power, temperature, and wavelengths to understand materials properties
+
 [Electrical measurements](https://github.com/MYlabTaiwan/Basics_ElectricalMeasurements): Conduct FET measurements and advanced transport characterization.
+
 [Thin film deposition](https://github.com/MYlabTaiwan/Basics_ThinFilmDeposition): Produce high quality thin films by ALD, evaporation, and sputtering.
 
 

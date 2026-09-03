@@ -2,14 +2,20 @@
 
 ## Ongoing projects
 
+### Basic projects
+[Electrochemistry](https://github.com/MYlabTaiwan/Basics_Electrochemistry): Learn about CV, EIS, LSV and study the effect of sample resistance.
+[Patterning](https://github.com/MYlabTaiwan/Basics_Patterning): Produce and improve lithographical features.
+[Spectroscopy](https://github.com/MYlabTaiwan/Basic_Spectroscopy): Apply Raman spectroscopy, PL, and TRPL at different power, temperature, and wavelengths to understand materials properties
+[Electrical measurements](https://github.com/MYlabTaiwan/Basics_ElectricalMeasurements): Conduct FET measurements and advanced transport characterization.
+[Thin film deposition](https://github.com/MYlabTaiwan/Basics_ThinFilmDeposition): Produce high quality thin films by ALD, evaporation, and sputtering.
+
+
 ### Nanomaterials 
 
 Goal: Making materials with precisely controllable functionality and structure (at least at the nanoscale)
 
-
 | Repository | Description | Stars |
 |---|---|---|
-| [SummerProject2026](https://github.com/MYlabTaiwan/SummerProject2026) | Project for beginning students entering in 2026 | ⭐ 1 |
 | [MoltenSaltSiliconProcessing](https://github.com/MYlabTaiwan/MoltenSaltSiliconProcessing) | We use molten salt to process silicon and use the process to learn about molten salts. | ⭐ 0 |
 | [MiniCVD](https://github.com/MYlabTaiwan/MiniCVD) | Chemical vapor deposition is an important tool but way too big and slow. | ⭐ 0 |
 | [MoltenSaltVOx](https://github.com/MYlabTaiwan/MoltenSaltVOx) | Using MSS to produce Vanadium Oxides | ⭐ 0 |
